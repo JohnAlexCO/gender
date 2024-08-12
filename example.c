@@ -1,6 +1,7 @@
 #define ENGLISH
 #include "gender.h"
 #include <stdio.h>
+#include <time.h>
 
 typedef struct {
     char *name;
@@ -17,6 +18,7 @@ int main (int argc, char **argv) {
         .name=NULL, .gender=NULL 
     };
 
+    srand(clock());
     switch(rand()%3) {
         case 0: me.gender = &manTemplate; break;
         case 1: me.gender = &womantemplate; break;
