@@ -14,7 +14,7 @@ gender_t manTemplate = {
 
 gender_t womantemplate = {
     .name = gender_name_f,
-    .names = nameflag_npcguy | nameflag_dudebro | nameflag_bozo | nameflag_object,
+    .names = nameflag_npcgirl | nameflag_belle | nameflag_fae,
     .formal = gender_subject_f "/" gender_object_f "/" gender_poss_f,
     .informal = gender_subject_f "/" gender_object_f "/" gender_poss_f "/" gender_subject_e "/" gender_object_e,
     .casual = gender_subject_f "/" gender_object_f "/" gender_poss_f "/" gender_subject_e "/" gender_object_e "/" gender_subject_b,
