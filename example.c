@@ -8,6 +8,9 @@ typedef struct {
     gender_t *gender;
 } character_t;
 
+
+#include "debug/debug.h"
+
 char *randomName(character_t *self) {
     return namefromList( namePickList(self->gender->names) );
 }
@@ -24,10 +27,8 @@ int main (int argc, char **argv) {
     woman_example.name = randomName(&woman_example);
     enby_example.name = randomName(&enby_example);
 
-    printf("Generating names for each group:\n    %-12s %s\n    %-12s %s\n    %-12s %s\n",
-        man_example.name, man_example.gender->formal,
-        woman_example.name, woman_example.gender->formal,
-        enby_example.name, enby_example.gender->formal
-    );
+    debug_genderVerbose(&man_example);
+    debug_genderVerbose(&woman_example);
+    debug_genderVerbose(&enby_example);
 
 }
