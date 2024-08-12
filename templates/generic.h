@@ -12,7 +12,7 @@ gender_t manTemplate = {
     .canEquipProgrammingSocks = false
 };
 
-gender_t womantemplate = {
+gender_t womanTemplate = {
     .name = gender_name_f,
     .names = nameflag_npcgirl | nameflag_belle | nameflag_fae,
     .formal = gender_subject_f "/" gender_object_f "/" gender_poss_f,

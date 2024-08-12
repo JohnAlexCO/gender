@@ -1,7 +1,11 @@
 char **namePickList(int nameflags) {
-    int i; int length=0; 
-    for(i=0;i<30;i++) { if ( nameflags >= 1 << i ) { length++; } }
-    int choice = ( 1 << rand()%length );
+    int i; int length=0; int lists[30] = { -1 };
+    for (int i = 0; i < 30; i++) {
+    if (nameflags & (1 << i)) {
+        lists[length] = 1 << i;
+        length++;
+    }}
+    int choice = ( lists[rand()%length] );
     switch(choice) {
     case nameflag_npcguy:       return names_dudebro;
     case nameflag_npcgirl:      return names_npcgirl;

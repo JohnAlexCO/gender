@@ -14,19 +14,20 @@ char *randomName(character_t *self) {
 
 int main (int argc, char **argv) {
 
-    character_t me = {
-        .name=NULL, .gender=NULL 
-    };
+    character_t man_example =   { .name=NULL, .gender=&manTemplate };
+    character_t woman_example = { .name=NULL, .gender=&womanTemplate };
+    character_t enby_example =  { .name=NULL, .gender=&enbyTemplate };
 
     srand(clock());
-    switch(rand()%3) {
-        case 0: me.gender = &manTemplate; break;
-        case 1: me.gender = &womantemplate; break;
-        case 2: me.gender = &enbyTemplate; break;
-    }
 
-    me.name = randomName(&me);
+    man_example.name = randomName(&man_example);
+    woman_example.name = randomName(&woman_example);
+    enby_example.name = randomName(&enby_example);
 
-    printf("Hello, my name is %s, and my pronouns are %s\n", me.name, me.gender->formal);
+    printf("Generating names for each group:\n    %-12s %s\n    %-12s %s\n    %-12s %s\n",
+        man_example.name, man_example.gender->formal,
+        woman_example.name, woman_example.gender->formal,
+        enby_example.name, enby_example.gender->formal
+    );
 
 }

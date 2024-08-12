@@ -50,7 +50,7 @@ char *names_clown[] = {
 };
 
 char *names_fae[] = {
-    "Aine", "Briar", "Clover", "Dewdrop", "Elda", "Fay", "Glimmer", "Hazel",
+    "Aine", "Bria", "Clover", "Dewdrop", "Elda", "Fay", "Glimmer", "Hazel",
     "Iris", "Jade", "Kestrel", "Lilac", "Misty", "Nimue", "Opal", "Pixie",
     "Quill", "Rowan", "Sylph", "Thistle", "Una", "Violet", "Wisp", "Xylo",
     "Yew", "Zara", "Bran", "Lyra", "Moon", "Skye", "Fern", "Luna", "\0"
