@@ -19,4 +19,4 @@ See `gender.c` for helper functions.
 
 ## License
 `gender` is available to you under the permissive MIT License.
-`gender` is &copy; Modula 2024, all rights reserved.
+`gender` is &copy; [Modula](https://modula.dev) 2024, all rights reserved.
