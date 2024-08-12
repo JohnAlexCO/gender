@@ -1,4 +1,4 @@
-# gender 
+# gender
 
 ## Usage
 1. Download the source `git clone https://github.com/JohnAlexCO/gender.git --depth=1`
@@ -17,6 +17,11 @@ See `gender.c` for helper functions.
 1. Open an Issue describing what modifications you're making to the code and why
 2. Name the Pull request like `SEE: #{issue number}`. I know this is a Github-ism, but this is a Github repo, so
 
+[![Star History Chart](https://api.star-history.com/svg?repos=johnalexco/gender&type=Date)](https://star-history.com/#johnalexco/gender&Date)
+
 ## License
-`gender` is available to you under the permissive MIT License.
+`gender` is available to you under the permissive MIT License. 
+You are allowed to make changes to `gender`, redistribute `gender`,
+sell `gender`, whatever you want, as long as any copies or deriviatives
+for `gender` include the MIT License notice and Modula.dev's copyright notice.
 `gender` is &copy; [Modula](https://modula.dev) 2024, all rights reserved.
