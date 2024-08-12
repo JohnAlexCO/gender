@@ -1,0 +1,10 @@
+#define nameflag_npcguy         1 << 0
+#define nameflag_npcgirl        1 << 1
+#define nameflag_dudebro        1 << 2
+#define nameflag_bozo           1 << 3
+#define nameflag_clown          1 << 4
+#define nameflag_fae            1 << 5
+#define nameflag_creature       1 << 6
+#define nameflag_object         1 << 7
+#define nameflag_animal         1 << 8
+#define nameflag_belle          1 << 9
